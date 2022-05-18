@@ -9,3 +9,9 @@ This app has been first presented at the workshop "MACHINE TRANSLATION AND HUMAN
 https://www.bolognachildrensbookfair.com/eventi/open-up/edizione-2021/machine-translation-and-human-creativity/10615.html
 
 The project uses MVC on .Net Core 3.1.
+
+**Important notes about Keys to MT APIs**
+For Google, you will need a settings file like unibo-literary-translation-09aff375131b.json which is mentioned in the code (Translator.cs) but not provided in this repository.
+For other engines, the keys are defined in the appsettings.json file, and defined in the Web App settings, on the Azure Portal site.
+
+

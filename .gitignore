@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# ignore development settings with private keys
+appsettings.Development.json
+
+# ignore google keys file
+unibo-literary-translation-09aff375131b.json
+
 # User-specific files
 *.rsuser
 *.suo
